@@ -12,7 +12,4 @@ public class Result {
         System.out.println("[FAILED] "+message);
     }
 
-    public static void main(String[] args) {
-        Concurrent.getcFiled();
-    }
 }
