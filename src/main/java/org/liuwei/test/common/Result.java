@@ -11,4 +11,8 @@ public class Result {
     public static void failed(String message){
         System.out.println("[FAILED] "+message);
     }
+
+    public static void main(String[] args) {
+        Concurrent.getcFiled();
+    }
 }
